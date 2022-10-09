@@ -1,4 +1,9 @@
 import PropTypes from 'prop-types';
+import {
+  TransactionTable,
+  TableHead,
+  TableRow,
+} from './TransactionHistory.styled';
 
 export default function TransactionHistory({ items }) {
   return (

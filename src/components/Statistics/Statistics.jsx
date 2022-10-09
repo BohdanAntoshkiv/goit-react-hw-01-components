@@ -1,4 +1,11 @@
 import PropTypes from 'prop-types';
+import {
+  StatSection,
+  StatTitle,
+  StatList,
+  StatItem,
+  Label,
+} from './Statistcs.styled';
 
 export default function Statistics({ title, data }) {
   return (

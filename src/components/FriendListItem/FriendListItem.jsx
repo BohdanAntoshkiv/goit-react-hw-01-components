@@ -1,4 +1,10 @@
 import PropTypes from 'prop-types';
+import {
+  Friend,
+  Status,
+  FriendAvatar,
+  FriendName,
+} from './FriendListItem.styled';
 
 export default function FriendsListItem({ avatar, name, isOnline }) {
   return (

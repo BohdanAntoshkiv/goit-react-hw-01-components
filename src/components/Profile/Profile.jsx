@@ -1,4 +1,16 @@
 import PropTypes from 'prop-types';
+import {
+  ProfileCard,
+  Avatar,
+  Description,
+  Name,
+  Tag,
+  Location,
+  StatusList,
+  StatusItem,
+  Label,
+  Quantity,
+} from './Profile.styled';
 
 export default function Profile({ username, tag, location, avatar, stats }) {
   return (
