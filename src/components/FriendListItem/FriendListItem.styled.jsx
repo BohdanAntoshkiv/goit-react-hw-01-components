@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Friend = styled.li`
-  width: 300px;
+  width: 270px;
   box-shadow: 0px 0px 13px -3px rgba(66, 68, 90, 1);
   border-radius: 4px;
   display: flex;

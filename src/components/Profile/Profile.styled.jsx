@@ -6,7 +6,7 @@ export const ProfileCard = styled.div`
   margin: 0 auto;
   padding-top: 32px;
   border-radius: 4px;
-  background-color: #d4bfd1;
+  background-color: #08d1f9;
   box-shadow: 0px 0px 13px -3px rgba(66, 68, 90, 1);
 `;
 export const Description = styled.div`
@@ -47,8 +47,8 @@ export const Location = styled.p`
 export const StatusList = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: #5d8ba8;
-  color: #ffffff;
+  background-color: #f9f108;
+  color: #000000;
   margin: 0;
   padding: 0;
   width: 100%;

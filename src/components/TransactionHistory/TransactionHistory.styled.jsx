@@ -11,13 +11,14 @@ export const TransactionTable = styled.table`
   color: #555555;
 `;
 export const TableHead = styled.thead`
-  background-color: #2c7b8c;
+  background-color: #4afbfd;
   border-bottom: 1px solid #006a68;
   padding: 0;
   color: #ffffff;
 `;
 export const TableRow = styled.tr`
   padding: 0;
+  background-color: #06fed4;
   border-bottom: 1px solid #006a68;
   th,
   td {
