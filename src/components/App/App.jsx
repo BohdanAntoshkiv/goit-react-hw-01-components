@@ -90,7 +90,7 @@ export default function App() {
           age={30}
         />
         <List array={arr} />
-        <List_1 />
+        <List_1 letter={arr1} />
       </Container>
     </div>
   );
