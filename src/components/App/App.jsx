@@ -11,6 +11,30 @@ import { Container } from '../App/App.styled';
 import Profile1 from 'components/Profile1/Profile1';
 import { Component } from 'react';
 import { number } from 'prop-types';
+import { letter } from 'prop-types';
+
+const arr1 = ['a', 'b', 'c', 'd'];
+
+export class Item_1 extends Component {
+  render() {
+    const { letter } = this.props;
+    return <li>{letter}</li>;
+  }
+}
+
+export class List_1 extends Component {
+  render() {
+    const { letter } = this.props;
+    return (
+      <ul>
+        {arr1.map(elem => {
+          return <Item_1 key={letter} letter={elem} />;
+        })}
+      </ul>
+    );
+  }
+}
+
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 export class Item extends Component {
   render() {
@@ -66,6 +90,7 @@ export default function App() {
           age={30}
         />
         <List array={arr} />
+        <List_1 />
       </Container>
     </div>
   );
